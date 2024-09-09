@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+/* Welcome Screen Styles */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.welcome-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.welcome-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.welcome-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Survey Screen Styles */
+.survey-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: auto;
+}
+
+.survey-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.survey-container p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.survey-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.survey-container label {
+  margin-right: 10px;
+}
+
+.survey-container input[type="radio"] {
+  margin-right: 5px;
+}
+
+.survey-container textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.survey-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.survey-container button:hover {
+  background-color: #218838;
+}
+
+.survey-container .skip-button {
+  background-color: #ffc107;
+}
+
+.survey-container .skip-button:hover {
+  background-color: #e0a800;
+}
+
+.survey-container .previous-button,
+.survey-container .next-button {
+  background-color: #007bff;
+}
+
+.survey-container .previous-button:hover,
+.survey-container .next-button:hover {
+  background-color: #0056b3;
+}
